@@ -6,7 +6,7 @@
 /*   By: mal-asht <mal-asht@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/17 10:35:03 by mal-asht          #+#    #+#             */
-/*   Updated: 2021/03/17 19:36:53 by mal-asht         ###   ########.fr       */
+/*   Updated: 2021/03/17 19:54:00 by mal-asht         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,10 +32,10 @@ void	ft_print_comb(void)
 				write(1, &a, 1);
 				write(1, &b, 1);
 				write(1, &c, 1);
-		if (a >= '7')
-				write(1, "\n", 1);
-			else
-				write(1,", ", 2);
+				if (a >= '7')
+				  write(1, "\n", 1);
+				else
+				  write(1, ", ", 2);
 			}
 		}
 	}
